@@ -13,6 +13,7 @@ while True:
   resp = str(input("Quer continuar inserido notas? [S/N] "))
   if resp =="N" or resp == "n":
     break
+
 print('-=' * 30)
 print(f'{"No.":<4}{"NOME":<10}{"MÉDIA":>8}')
 print('-=' * 30)
